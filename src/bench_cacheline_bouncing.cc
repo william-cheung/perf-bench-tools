@@ -2,6 +2,7 @@
  *  This work is inspired by perf-bench. Author: Aimin Zhang
  *
  *  Reference:
+ *    Cacheline Bouncing: https://www.quora.com/What-is-cache-line-bouncing-How-may-a-spinlock-trigger-this-frequently
  *    perf bench futex lock-pi (https://man7.org/linux/man-pages/man1/perf-bench.1.html)
  *    https://www.cs.rice.edu/~la5/doc/perf-doc/d1/d28/futex-lock-pi_8c_source.html
  * 
