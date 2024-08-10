@@ -7,7 +7,7 @@
  *    https://www.cs.rice.edu/~la5/doc/perf-doc/d1/d28/futex-lock-pi_8c_source.html
  * 
  *  Compilation:
- *    g++ -D_GNU_SOURCE -o bench_cacheline_contention bench_cacheline_contention.c -lpthread -lm -std=c++11 -DBENCH_INT
+ *    g++ -D_GNU_SOURCE -o bench_cache_contention bench_cacheline_contention.c -lpthread -lm -std=c++11 -DBENCH_INT
  * 
  */
 
