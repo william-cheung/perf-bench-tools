@@ -2,12 +2,12 @@
  *  This work is inspired by perf-bench. Author: Aimin Zhang
  *
  *  Reference:
- *    Cacheline Bouncing: https://www.quora.com/What-is-cache-line-bouncing-How-may-a-spinlock-trigger-this-frequently
- *    perf bench futex lock-pi (https://man7.org/linux/man-pages/man1/perf-bench.1.html)
- *    https://www.cs.rice.edu/~la5/doc/perf-doc/d1/d28/futex-lock-pi_8c_source.html
+ *    Cache Contention: https://www.linkedin.com/advice/0/how-do-you-handle-cache-contention-interference
+ *    perf-bench: https://man7.org/linux/man-pages/man1/perf-bench.1.html
+ *    Source of 'perf bench futex lock-pi': https://www.cs.rice.edu/~la5/doc/perf-doc/d1/d28/futex-lock-pi_8c_source.html
  * 
  *  Compilation:
- *    g++ -D_GNU_SOURCE -o bench_cache_contention bench_cache_contention.cc -lpthread -lm -std=c++11 -DBENCH_INT
+ *    g++ -D_GNU_SOURCE -o bench_cache_contention bench_cache_contention.cc -lpthread -lm -std=c++11 -DBENCH_INT -DNTHREAD=64
  * 
  */
 
